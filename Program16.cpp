@@ -1,0 +1,46 @@
+/////////////////////////////////////////////////////////////////////
+//
+//  Function Name:  	DisplayCharArray
+//  Description :      	this funaction return array of string
+//  Input :             char
+//  Output :         	char
+//  Date :              12/02/2023
+//  Author :            Shubham Rajendra Pund
+//
+/////////////////////////////////////////////////////////////////////
+
+#include<iostream>
+using namespace std;
+
+void DisplayCharArray(char cName[])
+{
+    while(*cName != '\0')
+    {
+        cout<<*cName;
+        cName++;
+    }
+    cout<<endl;
+}
+
+
+//////////////////////////////////////////////////////////////////////////////////////////
+//  This Program is used to demonstreat the square of number
+//////////////////////////////////////////////////////////////////////////////////////////
+int main()
+{
+    cout<<"Please Enter the String"<<endl;
+    char cName [20];
+    cin>>cName;
+    DisplayCharArray(cName);
+
+    return 0;
+}
+
+///////////////////////////////////////////////////////////////////////
+//  input:  Shubham
+//  Output: Shubham
+//
+//  input:  Shubham pund
+//  Output: Shubham
+//
+////////////////////////////////////////////////////////////////////////
